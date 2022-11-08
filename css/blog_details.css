@@ -1,0 +1,27 @@
+section {
+  padding-top: 50px;
+}
+
+.blog_details .img_wrapper {
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.blog_details h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.blog_details .date_wrapper {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #777;
+}
+
+.blog_details p {
+  font-size: 22px;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 20px;
+}

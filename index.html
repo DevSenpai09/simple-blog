@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/responsiveness.css" />
+    <link rel="icon" href="./assets/logo.svg" />
+    <script src="./JS/script.js" defer></script>
+    <title>Burgers</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="layout">
+        <div class="logo_wrapper">
+          <img src="./assets/logo.svg" alt="Logo" />
+        </div>
+        <nav>
+          <a href="" class="active">Home</a>
+          <a href="./pages/blog.html">Blogs</a>
+          <a href="./pages/about.html">About US</a>
+          <a href="./pages/contact.html">Contact Us</a>
+        </nav>
+        <div class="icons_wrapper" onclick="toggleNav()">
+          <img src="./icons/menu.svg" alt="Icon" id="menu" class="active" />
+          <img src="./icons/close.svg" alt="Icon" id="close" />
+        </div>
+      </div>
+      <div id="side_nav">
+        <nav>
+          <a href="" class="active">Home</a>
+          <a href="./pages/blog.html">Blogs</a>
+          <a href="./pages/about.html">About US</a>
+          <a href="./pages/contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="layout">
+          <div id="slides_wrapper">
+            <!-- Slide 1 -->
+            <div class="slide in">
+              <div class="left_side">
+                <h1>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptate, suscipit.
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis, vel iste itaque ad adipisci esse totam quasi incidunt
+                  minus reiciendis veritatis delectus laborum, sed magnam alias?
+                  Veritatis doloribus architecto sequi.
+                </p>
+              </div>
+              <div class="right_side">
+                <img src="./assets/hero_image.png" alt="Image" />
+              </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <div class="left_side">
+                <h1>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptate, suscipit.
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis, vel iste itaque ad adipisci esse totam quasi incidunt
+                  minus reiciendis veritatis delectus laborum, sed magnam alias?
+                  Veritatis doloribus architecto sequi.
+                </p>
+              </div>
+              <div class="right_side">
+                <img src="./assets/hero_image2.jpg" alt="Image" />
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <div class="left_side">
+                <h1>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Voluptate, suscipit.
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis, vel iste itaque ad adipisci esse totam quasi incidunt
+                  minus reiciendis veritatis delectus laborum, sed magnam alias?
+                  Veritatis doloribus architecto sequi.
+                </p>
+              </div>
+              <div class="right_side">
+                <img src="./assets/hero_image3.jpg" alt="Image" />
+              </div>
+            </div>
+          </div>
+          <div class="dots_wrapper">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </section>
+      <!-- End Hero -->
+
+      <!-- Latest -->
+      <section class="latest">
+        <div class="layout">
+          <h2>Latest</h2>
+          <div class="cards_wrapper">
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Latest -->
+
+      <!-- Most Viewed -->
+      <section class="most_view">
+        <div class="layout">
+          <h2>Most Viewed</h2>
+          <div class="cards_wrapper">
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="./pages/blogs_details.html">
+              <div class="card">
+                <div class="img_wrapper">
+                  <img src="./assets/card_image.jpg" alt="Card Image" />
+                </div>
+                <div class="details">
+                  <h4>Lorem ipsum dolor sit amet.</h4>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Expedita distinctio enim nulla ipsam minima iure dolor
+                    blanditiis est quo numquam!
+                  </p>
+                  <div class="date_and_views_wrapper">
+                    <span>04-11-22</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End Most Viewed -->
+
+      <!-- Subscribe -->
+      <section class="subscribe">
+        <div class="layout">
+          <h2>Subscribe</h2>
+          <p>Please subscribe to get notified when a new blog is posted.</p>
+          <form action="">
+            <input type="email" placeholder="Input Your Email" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+      <!-- End Subscribe -->
+    </main>
+    <footer>
+      <div class="layout">
+        <p>Copyright &copy; 2022 Unicus</p>
+      </div>
+    </footer>
+  </body>
+</html>

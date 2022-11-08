@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/responsiveness.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="icon" href="../assets/logo.svg" />
+    <script src="../JS/script.js" defer></script>
+    <title>Burger | Blog</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="layout">
+        <div class="logo_wrapper">
+          <img src="../assets/logo.svg" alt="Logo" />
+        </div>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./blog.html">Blogs</a>
+          <a href="./about.html">About US</a>
+          <a href="./contact.html" class="active">Contact Us</a>
+        </nav>
+        <div class="icons_wrapper" onclick="toggleNav()">
+          <img src="../icons/menu.svg" alt="Icon" id="menu" class="active" />
+          <img src="../icons/close.svg" alt="Icon" id="close" />
+        </div>
+      </div>
+      <div id="side_nav">
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="./blog.html">Blogs</a>
+          <a href="./about.html">About US</a>
+          <a href="./contact.html" class="active">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main>
+      <!-- Banner -->
+      <div class="banner">
+        <div class="text_wrapper">
+          <h5>Contact Us</h5>
+        </div>
+      </div>
+      <!-- Banner -->
+
+      <!-- Form -->
+      <div class="layout">
+        <form action="">
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Subject" />
+          <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+      <!-- End Form -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="layout">
+        <p>Copyright &copy; 2022 Unicus</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

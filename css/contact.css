@@ -1,0 +1,29 @@
+form {
+  width: 100%;
+  max-width: 700px;
+  display: grid;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  resize: none;
+}
+
+form input[type="submit"] {
+  background-color: var(--primaryColor);
+  color: #fff;
+  margin-top: 30px;
+  width: max-content;
+  padding: 10px 50px;
+  border: none;
+}

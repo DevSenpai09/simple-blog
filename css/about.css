@@ -1,0 +1,11 @@
+/* Content */
+.content .layout {
+  padding: 70px 0;
+}
+
+.content .layout p {
+  color: #777;
+  line-height: 1.5;
+  font-size: 20px;
+}
+/* End Content */
